@@ -1,4 +1,4 @@
-def swap(a, i, j):
+def swap(a, i ,j):
     k = a[j]
     a[j] = a[i]
     a[i] = k
@@ -24,6 +24,7 @@ def bubblesort(a, n):
 n = int(input())
 a = list(input().split())
 b = a[:]
+b = a
 # 出力
 bubblesort(a, n)
 print(" ".join(a))
